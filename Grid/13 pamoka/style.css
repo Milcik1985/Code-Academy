@@ -1,0 +1,67 @@
+*,*::before, *::after {
+    box-sizing: content-box;
+}
+
+body {
+    background-color: rgb(68, 69, 69);
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.item {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.orange,
+.black {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 850px;
+    height: 200px;
+    gap: 20px;
+}
+
+.orange .item {
+    background-color: orange;
+}
+
+.black .item {
+    background-color: black;
+}
+
+.left .item {
+    height: 81%;
+    width: 91%;
+}
+
+.right {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.right .item {
+    height: 56%;
+    width: 91%;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.bottom .item {
+    width: 80%;
+}
