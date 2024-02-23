@@ -1,0 +1,40 @@
+header {
+    text-align: center;
+}
+
+header img {
+    height: 50px;
+}
+
+nav {
+    background-color: green;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.grey {
+    padding: 20px;
+    background-color: rgb(203, 192, 192);
+}
+
+.green {
+    padding: 20px;
+    background-color: rgb(165, 233, 165);
+}
+
+section img {
+    width: 100%; 
+}
+
+h2 {
+    background: green;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
