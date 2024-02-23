@@ -1,0 +1,90 @@
+.showcookie {
+  width: 100px;
+  height: 100px;
+  background-color: yellowgreen;
+  margin-top: 20px;
+}
+
+.fifth-task {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fifth {
+  margin: 20px;
+  width: 200px;
+}
+
+.message {
+  margin: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.logo {
+  width: 50px;
+
+  img {
+    height: 50px;
+  }
+}
+
+header {
+  background-color: yellowgreen;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+/* // 2.4 Apsirašyt mobile menu wrapperį kuris būtu matomas tik desktop versijoj; */
+nav ul {
+  display: flex;
+  gap: 20px;
+
+  li {
+    list-style-type: none;
+    a {
+      font-weight: bold;
+      color: black;
+    }
+  }
+}
+
+.menubar {
+  all: unset;
+  display: none;
+}
+
+/* 2.2 Padaryt, kad header linkai būtu nematomi mobile versijoj; */
+/*  2.5 Padaryt, kad paspaudus ant burger button menu įvažiuotu į ekraną, paspaudus antrą kart - išvažiuotu; */
+.mobile-menu {
+  background-color: yellowgreen;
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  right: -100%;
+  display: none;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+  header nav ul {
+    display: none;
+  }
+
+  .menubar {
+    display: inline-block;
+  }
+}
+
+.mobile-menu {
+  display: inline-block;
+}
+
+.active {
+  right: 0;
+}
