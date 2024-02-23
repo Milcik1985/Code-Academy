@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../Lektoriaus kodas/type20-main/type20-main/2024-01-10-objects"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../Arrow Functions & slice, splice & filter, map methods"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Objects"
+	}
+}
