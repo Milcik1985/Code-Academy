@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "../../../Lektoriaus kodas/type20-main/type20-main/To do Application/to-do"
+	},
+	{
+		"path": "."
+	},
+	{
+		"path": "../DOM/DOM_Uzduotys"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "To do Application"
+  }
+}

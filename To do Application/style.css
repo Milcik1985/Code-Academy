@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.task {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+button.button-add-task {
+  width: 20%;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.taskWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.taskCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.taskCard :hover {
+  border: 4px solid yellowgreen;
+}
