@@ -1,0 +1,27 @@
+.word {
+  display: flex;
+  gap: 1rem;
+}
+
+.letter {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.form {
+  margin-top: 1rem;
+}
+
+.form input {
+  padding: 0.3rem;
+  width: 60px;
+}
+
+.error-wrapper {
+  margin-top: 1rem;
+  color: brown;
+}
+
+.lives {
+  font-size: 2rem;
+}
