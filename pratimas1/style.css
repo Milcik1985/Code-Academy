@@ -1,0 +1,16 @@
+h1 {
+color: violet;
+background: purple;
+}
+
+a {
+    color: darkgreen;
+}
+
+p.green {color: rgb(8, 94, 8);}
+p.purple {color: purple;}
+p.red {color: red}
+
+p#green {background: black;
+    color:greenyellow;
+}
