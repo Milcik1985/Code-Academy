@@ -1,0 +1,21 @@
+.showcookie {
+  width: 100px;
+  height: 100px;
+  background-color: yellowgreen;
+}
+
+.fifth-task {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.fifth {
+  margin: 20px;
+  width: 200px;
+}
+
+.message {
+  margin: 30px;
+  font-size: 30px;
+}
