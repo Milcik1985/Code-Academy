@@ -1,0 +1,73 @@
+*,*::before, *::after {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(/images/pexels-james-wheeler-417074.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container {
+    background-color: lightgray;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.content {
+    text-align: left;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+label {
+    text-transform: bold;
+    font-size: 16px;
+}
+
+form input {
+    display: block;
+    justify-content: center;
+}
+
+.radio {
+    display: flex;
+    flex-direction: column;
+}
+
+.choice {
+    display: flex;
+    flex-direction: row;
+}
+
+.gender {
+    padding: 10px;
+}
+
+.select-town {
+    display: flex;
+    flex-direction: column;
+}
+
+#name {
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid black;
+    border-top: none;
+    background: lightgray;
+}
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=link, initial-scale=1.0">
+    <title>Formos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>contuct us</h1>
+        <div class="content">
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" 
+                name="name"
+                id="name"
+                minlength="3"
+                maxlength="20"
+                required
+                placeholder="Petras">            
+            </form>
+            
+            <form>
+                <label for="email">Email:</label><br>
+                <input type="email"
+                name="email"
+                id="email"
+                required
+                placeholder="petras@petras.lt">
+            </form>
+
+            <form>
+                <label for="number">Reference number:</label><br>
+                <input type="number" 
+                minlength="5"
+                maxlength="10"
+                required
+                placeholder="12345">
+            </form>
+            
+            <form class="colored">
+                <label for="Your message">Your message:</label><br>
+                <textarea name="message" id="message" cols="50" rows="10"
+                placeholder="Type Your message here"></textarea>
+            </form>
+            
+        </div>
+            <div class="gender">
+                
+                <form class="radio">
+                    <div class="legend"><legend>Please select your gender:</legend></div>
+                    <div class="choice">                    
+                        <input type="radio" name="male" id="gender" value="male">
+                        <label for="gender">Male</label>
+                        <input type="radio" id="gender" name="Female" value="Female">
+                        <label for="gender">Female</label>
+                        <input type="radio" id="gender" name="other" value="other">
+                        <label for="gender">Other</label>  </div>
+                </form>
+            </div>
+
+            <form class="select-town">
+                <label for="select-town">Please select the town:</label>
+                <select name="town" id="select-town">
+                    <option value="vilnius">Vilnius</option>
+                    <option value="kaunas">Kaunas</option>
+                    <option value="klaipeda">Klaipeda</option>
+                    <option value="siauliai">Siauliai</option>
+                </select>
+            </form>
+    </div>
+</body>
+</html>
