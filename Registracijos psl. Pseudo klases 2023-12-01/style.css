@@ -1,0 +1,36 @@
+body {
+    background-color: gray;
+    color: white;
+}
+
+.container span {background-color: violet;}
+
+.container {
+    text-align: center;
+}
+
+input {
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 3px solid red;
+    border-left: 3px solid violet;
+}
+
+input[type="checkbox"] :checked +label{
+    color: blue;
+}
+
+/*neveikia*/
+
+input :read-only {
+    background-color: darkgray;
+}
+
+
+input #age :valid :in-range{
+border: 2px solid green;
+}
+
+input #age :invalid :out-of-range {
+    border: 2px solid red;
+}
