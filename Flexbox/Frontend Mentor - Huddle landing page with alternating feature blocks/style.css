@@ -1,0 +1,247 @@
+*, *::before, * ::after {box-sizing: border-box;}
+
+:root {
+    --color-primary: hsl(322, 100%, 66%);
+    --Very-Pale-Cyan: hsl(193, 100%, 96%);
+    --Grayish-Blue: hsl(208, 11%, 55%); 
+    --font-family: 'Open Sans', sans-serif;
+    --font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-size: 18px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    text-align: center;
+}
+
+.header {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    max-width: 133px;
+}
+
+.free-trial {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    min-width: 145px;
+    display: block;
+    background-color: white;
+    border-radius: 40px;
+    align-items: center;
+    padding: 15px;
+}
+
+.free-trial a {
+    text-decoration: none;
+    color: black;
+}
+
+.get-started a {
+    text-decoration: none;
+    color: white;
+}
+
+.first {
+    background: url(/images/bg-hero-mobile.svg);
+    background-color: var(--Very-Pale-Cyan);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: fit-content;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px;
+}
+
+.get-started {
+    background-color: var(--color-primary);
+    padding: 10px 50px;
+    border-radius: 40px;
+    max-width: 80%;
+    margin-bottom: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main img {
+    max-width: 90%;
+    margin-top: 2px;
+}
+
+.second {
+    background-color: var (--Very-Pale-Cyan);
+    border-radius: 10px;
+
+}
+
+.same img {
+    max-width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%
+}
+
+.second {
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(233, 230, 230);
+    max-width: 89%;
+    padding-bottom: 5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.paragraph-2 {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--Grayish-Blue);
+    margin: 22px;
+}
+
+.third {
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(233, 230, 230);
+    max-width: 89%;
+    padding-bottom: 5px;
+}
+.fourth {
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(233, 230, 230);
+    max-width: 89%;
+    padding-bottom: 5px;
+}
+
+.fifth {
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(233, 230, 230);
+    max-width: 89%;
+    padding-top: 1px;
+    padding-bottom: 32px;
+    background-color: white;  
+}
+
+.button-ready {
+    background-color: hsl(322, 100%, 66%);
+    padding: 15px;
+    border-radius: 25px; 
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Grayish-Blue);
+    color: white;
+}
+
+.image-footer {
+    width: 241px;
+    height: 62px;
+}
+
+.footer-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    row-gap: 10px;
+}
+
+.location {
+    display: flex;
+}
+
+.image-location {
+    margin-right: 23px
+}
+
+.paragraph-4 {
+    margin-block-start: 0;
+    text-align: left;
+    margin-right: 23px;
+}
+
+.phone {   
+    display: flex
+}
+
+.image-phone {
+    margin-right: 23px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+}
+
+.image-mail {
+    margin-right: 23px;
+}
+
+
+.list {
+display: flex;
+align-items: flex-start;
+}
+
+.list a {
+    color: white;
+    text-decoration: none;      
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 10px;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 24px;
+}
+
+
+.fb {
+background-color:hsl(208, 11%, 55%);
+border-radius: 22px;
+}
+
+.fb img,
+.twitter img,
+.instagram img {
+    padding: 10px;
+    height: 15%;
+}
+
+
