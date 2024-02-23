@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(29, 26, 26);
+color: white;}
+
+nav a {
+    text-decoration: none;
+    margin: 30px;
+    color: rgb(220, 216, 216);
+}
+
+nav a:active {
+    color: red;
+    text-decoration: underline;
+}
+
+header img {
+    width: 2rem;
+    margin-top: 1rem;
+    padding-bottom: 1px;
+    background-color: rgb(48, 43, 43);
+}
+
+span {
+    color: yellow;
+    margin-left: 0.5rem;
+
+}
+
+.dark {
+    background-color: rgb(48, 43, 43);
+    margin-top: 2rem;
+    height: 2rem;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.lentele {
+    color: rgb(220, 216, 216);
+    padding-left: 75em;
+    text-decoration: underline;
+
+}
+
+caption {
+    text-align: left;
+    margin-top: -80px;
+    margin-bottom: 1rem;
+    background-color: rgb(48, 43, 43);
+    border-radius: 7px;
+    height: 2rem;
+    width: 1520px;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    
+}
+
+.first {width: 10rem;
+text-align: center;}
+
+.second {width: 55rem;}
+
+.third {width: 20px;}
+
+.fourth {width: 3rem;}
+
+.fifth {width: 5rem;}
+
+table img {
+    width: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+table, th, td {
+    border: 1px solid rgb(48, 43, 43);
+    border-top: none;
+    border-right: none;
+  }
+
+  #star {
+    width: 20px;
+    margin-right: 7px;
+    background-color: rrgb(29, 26, 26);
+  }
+
+
