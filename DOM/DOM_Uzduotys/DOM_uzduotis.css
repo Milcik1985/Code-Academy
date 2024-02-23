@@ -1,0 +1,18 @@
+.change-color {
+  width: 200px;
+  height: 200px;
+}
+
+.show-number {
+  width: 200px;
+  height: 200px;
+  background-color: yellowgreen;
+  margin: 30px 0px;
+}
+
+.increasedSize {
+  width: 100px;
+  height: 100px;
+  background-color: yellowgreen;
+  margin: 30px 0px;
+}

@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../../../../Lektoriaus kodas/type20-main/type20-main/DOM_Events/Events"
+	},
+	{
+		"path": "../../../../Lektoriaus kodas/type20-main/type20-main/Async  Callback"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "DOM_Uzduotys"
+  }
+}
