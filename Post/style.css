@@ -1,0 +1,50 @@
+.recipeImage {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+.wapperInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 200px;
+}
+
+.recipeInfoWrapper {
+  margin: 10px;
+}
+
+.infoWrapper {
+  margin: 10px;
+}
+
+header {
+  height: 50px;
+  background-color: yellowgreen;
+}
+
+.a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  margin-top: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}

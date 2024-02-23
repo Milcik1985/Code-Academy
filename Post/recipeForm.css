@@ -1,0 +1,28 @@
+header {
+  height: 50px;
+  background-color: yellowgreen;
+  margin-top: 0px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.inputWrapper {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+input {
+  width: 50%;
+}
+
+.message {
+  height: 100px;
+  width: 400px;
+  text-align: center;
+}
